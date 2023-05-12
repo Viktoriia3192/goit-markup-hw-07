@@ -959,5 +959,5 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     gap: 56px;
 }
  .mobile-hamburger {
-    stroke: var(--navy-blue);
+    stroke: #2E2F42;
  }
