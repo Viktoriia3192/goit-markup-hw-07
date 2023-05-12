@@ -593,12 +593,17 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 
 .team {
     background-color: var(--cloud);
-    padding: 96px 82px;
+    padding: 96px 0;
+
 }
 @media only screen and (min-width: 1158px) {
 .team   {
     padding: 120px 0;
   }
+}
+.team .container {
+    max-width: 264px;
+    width: 100%;
 }
 .team-undertitle {
         font-size: 36px;
@@ -612,8 +617,12 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 
 .team-list {
-    width: 264px;
-    margin-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 264px;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
 }
 @media only screen and (min-width: 768px) {
 .team-list   {
