@@ -22,10 +22,10 @@
     <!-- Header section -->
     <header class="header">
       <div class="header-container container">
-        <nav class="header-nav">
-          <a class="link logo header-logo" href="./index.html"
+        <a class="link logo header-logo" href="./index.html"
             >Web<span class="logo-dark">Studio</span>
           </a>
+        <nav class="header-nav">
           <ul class="header-list list">
             <li class="header-item">
               <a class="link header-link current" href="./index.html">Studio</a>
@@ -116,7 +116,7 @@
       </section>
       <!-- Feature section -->
       <section class="feature">
-        <div class="container">
+        <div class="container feature-container">
           <h2 hidden class="feature-uppertitle">Feature section</h2>
           <ul class="feature-list list">
             <li class="feature-item">
@@ -498,25 +498,22 @@
     </footer>
     <!-- Mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-          <path fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"></path>
+      <button class="mobile-close-btn menu-toggle js-close-menu">
+        <svg class="mobile-close-svg" width="8" height="8">
+          <use href="./images/icon.svg#icon-Vector"></use>
         </svg>
       </button>
       <ul class="mobile-menu list">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
+        <li><a href="./index.html" class="link current">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
         <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
       </ul>
       <ul class="mobile-contacts list">
-        <li>
-          <a href="tel:">+11 (000) 111-11-11</a>
+        <li class="mobile-munu-tel-item">
+          <a class="mobile-menu-tel" href="tel:">+11 (000) 111-11-11</a>
         </li>
         <li>
-          <a href="mailto:">info@devstudio.com</a>
+          <a class="mobile-menu-mail" href="mailto:">info@devstudio.com</a>
         </li>
       </ul>
       <ul class="mobile-social-list list">
