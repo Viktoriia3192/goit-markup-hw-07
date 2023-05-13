@@ -118,7 +118,11 @@ p {
     margin-right: 120px;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+.header-logo   {
+    margin-right: 76px;
+  }
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -128,6 +132,11 @@ p {
 @media only screen and (min-width: 768px) {
 .header-container   {
     height: 72px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+.header-container   {
+    justify-content: center;
   }
 }
 .header-nav {
@@ -140,6 +149,11 @@ p {
 @media only screen and (min-width: 768px) {
 .header-nav   {
     margin-right: 122px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+.header-nav   {
+    margin-right: 332px;
   }
 }
 .header-list {
@@ -584,8 +598,11 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     flex-wrap: wrap;
     gap: 72px 24px;
 }
-
-
+@media only screen and (min-width: 1158px) {
+.feature-list   {
+    flex-wrap: nowrap;
+  }
+}
 @media only screen and (min-width: 768px) {
 .feature-item {
     width: 356px;
@@ -681,6 +698,11 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     max-width: 552px;
   }
 }
+@media only screen and (min-width: 1158px) {
+.team .container   {
+    max-width: 100%;
+  }
+}
 .team-undertitle {
         font-size: 36px;
         color: var(--navy-blue);
@@ -704,6 +726,11 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 .team-list   {
     gap: 64px 24px;
     width: 552px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+.team-list   {
+    gap: 24px;
   }
 }
 .team-item {
@@ -784,6 +811,12 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     padding: 0 108px;
   }
 }
+@media only screen and (min-width: 1158px) {
+.customers .container  {
+    margin: 0;
+    width: 1158px;
+  }
+}
 .customers-uppertitle {
     margin-bottom: 72px;
     font-size: 36px;
@@ -808,13 +841,14 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 @media only screen and (min-width: 1158px) {
 .customers-list {
     gap: 24px;
+    flex-wrap: nowrap;
   }
 }
 .customers-item {
     width: 190px;
     height: 88px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1157px){
+@media only screen and (min-width: 768px) {
 .customers-item   {
     width: 168px;
   }
@@ -855,6 +889,7 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 @media only screen and (min-width: 1158px) {
 .footer {
     padding: 100px 0;
+    height: 312px;
   }
 }
 .footer-flex {
@@ -868,6 +903,12 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     height: 456px;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1158px) {
+.footer-flex   {
+    padding: 0;
+    height: 312px;
   }
 }
 .footer-logo {
@@ -968,6 +1009,7 @@ text-align: left;
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 100%;
+    align-items: flex-start;
   }
 }
 .footer-form-text {
