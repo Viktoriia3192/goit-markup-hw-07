@@ -700,7 +700,7 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 @media only screen and (min-width: 1158px) {
 .team .container   {
-    max-width: 100%;
+    max-width: 1158px;
   }
 }
 .team-undertitle {
@@ -804,6 +804,8 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 @media only screen and (min-width: 1158px) {
 .customers {
     padding: 120px 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
@@ -813,7 +815,6 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 @media only screen and (min-width: 1158px) {
 .customers .container  {
-    margin: 0;
     width: 1158px;
   }
 }
@@ -888,7 +889,8 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 
 @media only screen and (min-width: 1158px) {
 .footer {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     height: 312px;
   }
 }
