@@ -347,8 +347,7 @@ background-image: linear-gradient(to bottom,
             margin-bottom: 72px;
             margin-left: auto;
             margin-right: auto;
-            max-width: 496px;
-            width: 320px;
+            max-width: 320px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -356,7 +355,7 @@ background-image: linear-gradient(to bottom,
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 36px;
-    width: 496px;
+    max-width: 496px;
   }
 }
 
@@ -590,6 +589,11 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 
 .feature {
     padding: 96px 16px;
+}
+@media only screen and (max-width: 427px) {
+.feature  {
+    padding: 96px 0;
+  }
 }
 @media only screen and (min-width: 768px) {
 .feature   {
@@ -899,7 +903,7 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 
 .footer {
     background-color: var(--navy-blue);
-    
+    padding: 96px 0;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -909,13 +913,12 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
   }
 }
 .footer-flex {
-    padding: 96px 15px;
+    padding: 0 15px;
     text-align: center;
 }
 @media only screen and (min-width: 768px) {
 .footer-flex {
     align-items: baseline;
-    padding: 96px 0;
     display: flex;
     flex-wrap: wrap;
     max-width: 582px;
@@ -924,7 +927,7 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 @media only screen and (min-width: 1158px) {
 .footer-flex   {
     padding: 0;
-    max-width: 1126px;
+    max-width: 1128px;
   }
 }
 .footer-logo {
@@ -938,10 +941,21 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
     margin-left: auto;
     margin-right: auto;
     color: var(--cloud);
-    width: 268px;
+    width: 264px;
     text-align: left;
 }
 
+@media only screen and (min-width: 768px) {
+.footer-text   {
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+.footer-text   {
+    margin-right: 0;
+  }
+}
 .footer-social-list {
     display: flex;
     justify-content: center;
@@ -982,13 +996,10 @@ outline: 2px solid rgba(0, 0, 255, 0.5);
 .footer-first   {
     gap: 24px;
     margin-bottom: 0;
+    margin-right: 120px;
   }
 }
-@media only screen and (min-width: 768px) {
-.footer-text   {
-    margin-right: 24px;
-  }
-}
+
 
 .footer-social {
     margin-bottom: 16px;
@@ -1064,6 +1075,7 @@ text-align: left;
 .footer-form-e-mail   {
     width: 264px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1158px) {
